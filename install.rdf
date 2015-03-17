@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+	<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+	<Description about="urn:mozilla:install-manifest">
+		<em:id>reverseimage@fauxpark.net</em:id>
+		<em:version>0.0.1</em:version>
+		<em:type>2</em:type>
+		<em:iconURL>chrome://reverseimage/skin/icon-32.png</em:iconURL>
+		<em:icon64URL>chrome://reverseimage/skin/icon-64.png</em:icon64URL>
+		<em:targetApplication>
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>30</em:minVersion>
+				<em:maxVersion>36.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+		<em:name>Reverse Image Search</em:name>
+		<em:description>Reverse image search for Firefox</em:description>
+		<em:creator>fauxpark</em:creator>
+		<em:homepageURL>http://fauxpark.net/</em:homepageURL>
+	</Description>
+</RDF>
