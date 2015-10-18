@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<overlay id="reverseimage" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-	<script type="text/javascript" src="chrome://reverseimage/content/reverseimage.js"/>
-	<popup id="contentAreaContextMenu">
-		<menuitem class="menuitem-iconic" id="reverseimage-search" image="chrome://reverseimage/skin/icon-16.png" insertafter="context-copyimage" label="Search Google with this image" accesskey="e" oncommand="reverseimage.search();"/>
-	</popup>
-</overlay>

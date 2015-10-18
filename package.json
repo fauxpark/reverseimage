@@ -1,0 +1,14 @@
+{
+	"title": "Reverse Image Search",
+	"name": "reverseimage",
+	"id": "reverseimage@fauxpark.net",
+	"version": "1.0.0",
+	"description": "Reverse image search for Firefox",
+	"main": "index.js",
+	"icon": "icon.png",
+	"author": "fauxpark",
+	"engines": {
+		"firefox": ">=38.0a1"
+	},
+	"license": "MIT"
+}
