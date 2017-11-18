@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Reverse Image Search",
+  "description": "Reverse image search for Firefox",
+  "author": "fauxpark",
+  "homepage_url": "https://github.com/fauxpark/reverseimage",
+  "version": "1.2.0",
+  "icons": {
+    "48": "icon.svg",
+    "96": "icon.svg"
+  },
+  "background": {
+    "scripts": [
+      "reverseimage.js"
+    ]
+  },
+  "permissions": [
+    "activeTab",
+    "contextMenus"
+  ],
+  "incognito": "spanning"
+}
